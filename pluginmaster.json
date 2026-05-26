@@ -1,0 +1,21 @@
+﻿[
+  {
+    "Author": "暴风",
+    "Name": "BossMod Reborn",
+    "InternalName": "BossModReborn",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "首领战雷达与机制提示（国服简体中文分支）",
+    "Punchline": "Boss 模块与雷达",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/sortec001/BossModReborn-Stm-Cn",
+    "Changelog": "国服简体中文分支：界面语言切换、本地化资源修复",
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1779769860",
+    "DownloadLinkInstall": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip"
+  }
+]
