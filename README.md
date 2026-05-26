@@ -1,22 +1,40 @@
-# BossModReborn-Stm-Cn
+# BossModReborn 插件分发库
 
-国服卫月 **BossModReborn** 插件分发库（STM / 简体中文）。
+卫月（Dalamud）第三方插件仓库，用于安装 **BossMod Reborn**（首领战雷达与机制提示，国服简体中文）。
+
+## 用途说明
+
+本仓库及其中插件 **仅供技术交流与学习研究**，帮助了解 Dalamud 插件分发、打包与安装流程。  
+请勿将相关内容用于任何违反游戏服务条款、损害他人游戏体验或扰乱游戏秩序的行为。
+
+## 免责声明
+
+- 本插件为 **非官方第三方工具**，与 Square Enix、国服运营商及 XIVLauncher / Dalamud 官方无任何关联或背书。
+- 使用第三方启动器、插件及本仓库分发的文件，**可能违反《最终幻想 XIV》用户协议或服务条款**，存在账号受限等风险，**后果由使用者自行承担**。
+- 本仓库维护者不对因下载、安装、使用本插件导致的 **账号处罚、数据丢失、游戏崩溃、设备损坏或其他直接或间接损失** 负责。
+- 本仓库按 **「现状」** 提供，不保证功能完整、持续可用或与特定游戏版本兼容；更新、停更、移除均可能发生，且无需另行通知。
+- 使用者应自行判断风险，并确保来源可信；从非本仓库官方链接获取的文件，维护者不承担任何责任。
+
+**继续使用即表示您已阅读、理解并同意上述说明。**
 
 ## 安装
 
-在卫月 **第三方插件仓库** 添加：
+1. 游戏内打开 **卫月设置** → **插件** → **第三方插件仓库**
+2. 添加以下链接并启用：
 
 ```
 https://raw.githubusercontent.com/sortec001/BossModReborn-Stm-Cn/main/pluginmaster.json
 ```
 
-## 发版（维护者）
+3. 打开 **插件安装器**，搜索 **BossMod Reborn** 并安装
 
-1. 在 `F:\FFIX\FFXIVWY\BossmodReborn` 更新 `BossMod\BossModReborn.json`（`AssemblyVersion`、`Changelog`）
-2. `dotnet build BossMod\BossModReborn.csproj -c Release`
-3. 确认本目录 `pluginmaster.json` 与 `release/BossModReborn/latest.zip`
-4. `git add` → `commit` → `push origin main`
+## 仓库内容
 
-## 免责声明
+| 文件 | 说明 |
+|------|------|
+| `pluginmaster.json` | 插件索引 |
+| `release/BossModReborn/latest.zip` | 安装包 |
 
-第三方插件，使用风险自负；与 Square Enix / 国服运营商无关联。
+## 更新
+
+在插件安装器中刷新仓库列表，对 BossMod Reborn 执行更新即可。
