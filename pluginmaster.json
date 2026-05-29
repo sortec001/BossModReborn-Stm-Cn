@@ -3,7 +3,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "BossMod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "1.0.1.4",
+    "AssemblyVersion": "1.0.1.5",
     "Description": "BossMod Reborn provides boss fight radar, mechanic overlays, AI movement assist, autorotation presets, and replay tools.\n\n国服简体中文分支：高难度副本与极限任务的即时机制雷达、危险区域标记与可视化提示。\n简体中文汉化：暴风",
     "Tags": [
       "combat",
@@ -17,12 +17,12 @@
     "Punchline": "Boss 模块与雷达",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/sortec001/BossModReborn-Stm-Cn",
-    "Changelog": "修正 manifest 作者信息，汉化署名暴风",
+    "Changelog": "修复 Config 未初始化时加载 ActionDefinitions 导致插件启动失败；修正预设库加载顺序以兼容 AutoDuty IPC",
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1780025639",
+    "LastUpdate": "1780028542",
     "DownloadLinkInstall": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
     "DownloadLinkTesting": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
     "DownloadLinkUpdate": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip"
