@@ -1,10 +1,10 @@
 ﻿[
   {
-    "Author": "暴风",
+    "Author": "The Combat Reborn Team",
     "Name": "BossMod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "1.0.1.3",
-    "Description": "BossMod Reborn provides boss fight radar, mechanic overlays, AI movement assist, autorotation presets, and replay tools.\n\n国服简体中文分支：高难度副本与极限任务的即时机制雷达、危险区域标记与可视化提示。",
+    "AssemblyVersion": "1.0.1.4",
+    "Description": "BossMod Reborn provides boss fight radar, mechanic overlays, AI movement assist, autorotation presets, and replay tools.\n\n国服简体中文分支：高难度副本与极限任务的即时机制雷达、危险区域标记与可视化提示。\n简体中文汉化：暴风",
     "Tags": [
       "combat",
       "boss",
@@ -17,12 +17,12 @@
     "Punchline": "Boss 模块与雷达",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/sortec001/BossModReborn-Stm-Cn",
-    "Changelog": "修复异步加载时 ActionDefinitions 未初始化，导致 AutoDuty 导入预设 IPC 崩溃",
+    "Changelog": "修正 manifest 作者信息，汉化署名暴风",
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1780025053",
+    "LastUpdate": "1780025639",
     "DownloadLinkInstall": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
     "DownloadLinkTesting": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip",
     "DownloadLinkUpdate": "https://github.com/sortec001/BossModReborn-Stm-Cn/raw/main/release/BossModReborn/latest.zip"
